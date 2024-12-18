@@ -17,8 +17,8 @@ def scrap_mbigucci():
     url = 'https://www.mbigucci.com.br/mb/busca?quero=10&cidade=&bairro=&tipo=&valor=&status='
     data_item = []
 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                            'Chrome/91.0.4472.124 Safari/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/525.36 (KHTML, like Gecko) '
+                             'Chrome/91.0.4425.896 Safari/585.36'}
 
     # Fazendo a solicitação HTTP
     response = requests.get(url, headers=headers)
@@ -49,8 +49,8 @@ def scrap_patriani():
     url = 'https://www.construtorapatriani.com.br/imoveis'
     data_item = []
 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                            'Chrome/91.0.4472.124 Safari/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/525.36 (KHTML, like Gecko) '
+                             'Chrome/91.0.4425.896 Safari/585.36'}
 
     # Fazendo a solicitação HTTP
     response = requests.get(url, headers=headers)
@@ -158,8 +158,8 @@ def scrap_mzm():
     url = 'https://mzm.com.br/imoveis/'
     data_item = []
 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                             'Chrome/91.0.4472.124 Safari/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/525.36 (KHTML, like Gecko) '
+                             'Chrome/91.0.4425.896 Safari/585.36'}
 
     # Fazendo a solicitação HTTP
     response = requests.get(url, headers=headers)
@@ -202,8 +202,8 @@ def scrap_mzm():
 def scrap_maximo_aldana():
     url = 'https://maximoaldana.com.br/imoveis/'
     data_item = []
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                             'Chrome/91.0.4472.124 Safari/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/525.36 (KHTML, like Gecko) '
+                             'Chrome/91.0.4425.896 Safari/585.36'}
 
 
     response = requests.get(url, headers=headers)
